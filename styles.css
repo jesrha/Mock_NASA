@@ -6,7 +6,159 @@ html, body {
 .top {
     background-color: #000;
     width: 100%;
-    min-height: 100px;
+    min-height: 90px;
     color: white;
+}
+
+.nasa {
     justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    width: 80px;
+}
+
+.background {
+    width: 100%;
+    height: 675px;
+}
+
+.background-container {
+    position: relative;
+}
+
+.intro {
+    font-family: inter, sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 29%;
+    margin-left: 6%;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+
+/*  ^  The code above is the nav-bar at top and the black hole background  ^  */
+
+
+.first-title {
+    font-family: inter, sans-serif;
+    margin-left: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold
+}
+
+.first-body {
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: inter, sans-serif;
+    color: rgb(66, 66, 66);
+    line-height: 1.6;
+    max-width: 55rem;
+}
+
+
+/*  ^  The code above is the 'Black Holes' section  ^  */
+
+
+.second-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+    font-family: inter, sans-serif;
+    margin-top: 9rem;
+    margin-bottom: 4rem;
+}
+
+.grid-container {
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background-color: rgb(211, 211, 211);
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.grid-container > .grid-item {
+    background-color: white;
+    text-align: center;
+    color: rgb(153, 153, 153);
+    font-size: 3em;
+    line-height: 10px;
+    padding: 50px;
+    height: 165px;
+    font-family: sans-serif;
+}
+
+h6 {
+    color:#424242;
+    font-family: sans-serif;
+    font-size: 0.4em;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.grid-desc {
+    color: rgb(78, 78, 78);
+    font-size: 0.32em;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.grid-item-image-one {
+    background-image: url('https://clipart-library.com/8300/2368/black-hole-emoji-1024x1024-btoxw50k.png');
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid-item-image-two {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1534/1534064.png');
+    background-size: contain;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*  ^ The above is for the grid ^  */
+
+.section-content {
+    width: 90%; /* Set to a percentage */
+    margin: 0 auto; /* Center the section horizontally */
+    min-width: 100px;
+    max-width: 990px; /* Add max-width for larger screens */
+}
+
+
+.third-title {
+    font-family: sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 8rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+
+.finding {
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: inter, sans-serif;
+    color: rgb(66, 66, 66);
+    line-height: 1.6;
+}
+
+.finding-bp {
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+li::marker {
+    color: lightblue;
 }
