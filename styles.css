@@ -10,11 +10,13 @@ html, body {
     color: white;
 }
 
+
 .nasa {
     justify-content: center;
     display: flex;
     margin: 0 auto;
-    width: 80px;
+    height: 60px;
+    width: 60px;
 }
 
 .background {
@@ -40,12 +42,17 @@ html, body {
 /*  ^  The code above is the nav-bar at top and the black hole background  ^  */
 
 
+.text-intro {
+    width: 90%; /* Set to a percentage */
+    margin: 0 auto; /* Center the section horizontally */
+    max-width: 60rem; /* Add max-width for larger screens */
+}
+
 .first-title {
     font-family: inter, sans-serif;
-    margin-left: 0rem;
+    margin-left: 2rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: center;
     font-size: 3em;
     font-weight: bold
 }
@@ -57,7 +64,6 @@ html, body {
     font-family: inter, sans-serif;
     color: rgb(66, 66, 66);
     line-height: 1.6;
-    max-width: 55rem;
 }
 
 
@@ -131,17 +137,18 @@ h6 {
 .section-content {
     width: 90%; /* Set to a percentage */
     margin: 0 auto; /* Center the section horizontally */
-    min-width: 100px;
-    max-width: 990px; /* Add max-width for larger screens */
+    max-width: 60rem; /* Add max-width for larger screens */
+    font-family: sans-serif;
+    color: rgb(66, 66, 66);
 }
 
 
 .third-title {
-    font-family: sans-serif;
+    color: black;
     font-size: 3em;
     font-weight: bold;
     margin-top: 8rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -149,16 +156,36 @@ h6 {
     margin: 0 auto;
     padding-left: 2rem;
     padding-right: 2rem;
-    font-family: inter, sans-serif;
-    color: rgb(66, 66, 66);
     line-height: 1.6;
 }
 
 .finding-bp {
     margin-top: 2rem;
     margin-left: 4rem;
+    line-height: 1.8;
+    max-width: 45rem;
+}
+
+li {
+    margin-bottom: 1rem;
 }
 
 li::marker {
-    color: lightblue;
+    color: rgb(0, 98, 217);
+}
+
+/* */
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    padding: 1.5rem;
+}
+
+/* */
+
+footer {
+    background-color: #000;
 }
